@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>resgen_vc32</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/r2d2rigo/resgen-vc32</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Company />
+    <Authors>r2d2rigo</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

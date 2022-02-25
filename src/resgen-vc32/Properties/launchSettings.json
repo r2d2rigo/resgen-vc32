@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "resgen-vc32": {
+      "commandName": "Project",
+      "commandLineArgs": "2048.xml"
+    }
+  }
+}
